@@ -238,7 +238,8 @@ AND Players_playerID NOT IN (select Players_playerID from Injuries);
 + ----------- + ----------- + ------------- +
 210 rows
 
-      From a managerial perspective, this query would be important because knowing what players have not been injured in the past and whether or not they are currently injured or not would be significant in understanding the state of the team and help predict how they would fare in a tournament. For a team that has many injured players it would not be wise to send them to participate in a tournament because they wouldn’t be able to perform on a competitive level with many injured players. 
+From a managerial perspective, this query would be important because knowing what players have not been injured in the past and whether or not they are currently injured or not would be significant in understanding the state of the team and help predict how they would fare in a tournament. For a team that has many injured players it would not be wise to send them to participate in a tournament because they wouldn’t be able to perform on a competitive level with many injured players. 
+
 
 2. Retrieve the names of the teams and their respective head coaches that won a tournament:
 This query lists out the head coaches for teams that won each tournament.
@@ -258,8 +259,8 @@ AND teamName IN (SELECT winning_team FROM Tournaments);
 + ----------- + ----------- + ------------- +
 4 rows
 
-
 The manager would want to know who the head coach is for every team that won the different tournament. This would be important that the manager was aware of which coaches were in charge of the overall winners of the four tournaments. 
+
 
 3.Write a query that lists the first name of the players on the Lions team.
 This query lists the first name of every player on the Lions team.
@@ -312,6 +313,7 @@ ORDER BY teamName;
 5 rows
 
 This query is important from a managerial perspective because the S.M.A.S.H. tournament was the last one of the season. It is important to see which teams practiced the longest before playing in any tournaments to compare performance evaluations.
+
 
 5. Write a query that shows sponsors who have paid more than the average payment:
 This query lists out the name and the payment of those sponsors whose payment amount is greater than the average payment amount made by all the sponsors.
@@ -377,6 +379,7 @@ AND opponent regexp 'bulldogs|Bulldogs';
 
 A manager would want to know this information to determine if the bulldogs are cheating so they want to know the referees in order to contact them.
 
+
 7. List the maintenance staff name from each facility whose field condition is turf:
 This query lists all the staff that are maintenance workers at facilities with field conditions that are turf.
 Execute:
@@ -393,6 +396,7 @@ AND field_condition REGEXP "turf|Turf";
 | Shayne      | Yven        | Bubblebox |
 + ----------- + ----------- + --------- +
 2 rows
+
 This query would be significant to a manager who would want to understand how many maintenance workers are at a particular facility that has turf.
 
 
@@ -424,9 +428,9 @@ ORDER BY AVG(coaching_experience) DESC;
 
 The manager would want to know this information to understand the individual experience of each coach and which teams have coaches with the most experience. This would allow the manager to assign head coaches to competition levels that are appropriate for their experience level. Coaches with more coaching experience should be assigned to higher competition levels, and the opposite could be said for coaches with less experience. 
 
+
 9. List the first and last name of each coach that does not have a coaching certificate & their respective team. 
 This query shows the first and last name of each individual coach that has no coaching  certification along with the team that they coach for.
-
 
 Execute:
 > SELECT CONCAT(l_name,", ",f_name), teamName
@@ -445,7 +449,9 @@ AND coaching_certification REGEXP 'no';
 | St. Louis, Rica                 | Falcons       |
 + ------------------------------- + ------------- +
 6 rows
+
 The owner of the Bulldog United soccer club would want to know this information to track each coach’s progress towards obtaining their coaching certification. This would be relevant when coaches are up for evaluation and would help in determining what coaches would be qualified to become a head coach of a team for the upcoming season. 
+
 
 10. List the tournament name that had a payment average from its teams that was greater than the overall average sponsor payment.
 This query shows the name of the tournament that had an average amount of payments that was higher than the average total amount of payments from all sponsors.
