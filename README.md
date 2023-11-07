@@ -3,11 +3,11 @@
 ## Team Name
 Group 10
 ## Team Members
-1. Liam Kilner @liamkilner
-2. Ashley Potts @ashley-potts
+1. Liam Kilner https://github.com/liamkilner/Project-1-SQL
+2. Ashley Potts https://github.com/ashley-potts/MIST-4610-Project1 
 3. Emma Surbrook @emmasurbrook
-4. Hayden Soley @HaydenSoley
-5. Victoria Wiest @victoriawiest
+4. Hayden Soley https://github.com/HaydenSoley/MIST-4610-Project-1
+5. Victoria Wiest https://github.com/victoriawiest/MIST4610Project1
 
 ## Problem Description
 The current project is to create a relational database that models the general operations of a soccer club. The primary entity of the model is the Teams entity with the Teams representing each individual team that belongs to the UGA United Soccer Club. The Team entity has various relationships with other entities in the model such as Players, Coaches, Tournaments, etc. We are interested in accurately depicting these relationships and generating sample data to ensure that the goals of the database are achieved. Additionally we plan to execute queries on the sample data to provide information that is relevant to the club from a managerial perspective. Our client for this project was the chatbot known as ChatGPT. A link to the conversation is listed here :
