@@ -12,6 +12,8 @@ The current project is to create a relational database that models the general o
 
 Queries:
 
+<img width="930" alt="Screenshot 2023-11-07 at 12 32 00 PM" src="https://github.com/liamkilner/Project-1-SQL/assets/141340172/acbcc217-a48e-4c3d-96ff-2eb42df5ea72">
+
 1. Retrieve all players who have not suffered any injuries:
 This query lists the first name, last name, and team name of all the players who have not suffered any injuries.
 
