@@ -17,6 +17,9 @@ Our model is based on a Soccer Club, called UGA United Soccer Club. Our “Teams
 <img width="651" alt="Screenshot 2023-11-02 at 3 57 51 PM" src="https://github.com/victoriawiest/MIST4610Project1/assets/148873180/4f47cdcf-39a7-48ca-b8e4-fb7c3b1332b8">
 <img width="406" alt="Screenshot 2023-11-02 at 4 00 04 PM" src="https://github.com/victoriawiest/MIST4610Project1/assets/148873180/de548084-92eb-49e9-aa80-92b505770966">
 
+![Screenshot 2023-11-07 at 12 11 49 PM](https://github.com/liamkilner/Project-1-SQL/assets/141340172/9342df15-d52d-4972-8621-7a7219b80e0e)
+
+
 ## Project Description
 The current project is to create a relational database that models the general operations of a soccer club. The primary entity of the model is the Teams entity with the Teams representing each individual team that belongs to the UGA United Soccer Club. The Team entity has various relationships with other entities in the model such as Players, Coaches, Tournaments, etc. We are interested in accurately depicting these relationships and generating sample data to ensure that the goals of the database are achieved. Additionally, we plan to execute queries on the sample data to provide information that is relevant to the club from a managerial perspective.
 
